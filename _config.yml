@@ -1,0 +1,32 @@
+# Mirroring GitHub's settings help have a better idea of my
+#  limitations and deal with it locally.
+# https://docs.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins
+
+safe: true
+lsi: false
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+
+# Posts
+# I want to see it ALL!
+show_drafts: true
+future: true
+unpublished: true
+markdown: "GFM"
+
+# Easier to spam the save command then meta-tab-F5 over to the browser.
+livereload: true
+
+# Post defaults
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "default"
+
+# Styles
+sass:
+  sass_dir: "assets/styles/_sass"
