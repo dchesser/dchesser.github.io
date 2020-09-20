@@ -10,10 +10,7 @@ gist:
   noscript: false
 
 # Posts
-# I want to see it ALL!
 show_drafts: true
-future: true
-unpublished: true
 markdown: "GFM"
 
 # Easier to spam the save command then meta-tab-F5 over to the browser.
