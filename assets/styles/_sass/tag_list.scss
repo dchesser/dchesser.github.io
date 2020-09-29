@@ -1,0 +1,26 @@
+@mixin make-tag($tag-name, $color, $glowp: false) {
+    &.tag--#{$tag-name} {
+	color: $color;
+	@if $glowp {
+	    text-shadow: 0 0 2px lighten($color, 20%);
+	}
+    }
+}
+
+.tag-list {
+    & {
+	color: #3a3a4b;
+	// &::before { content: "("; }
+	// &::after  { content: ")"; }
+    }
+    
+    &__tag {
+	color: #3a3a4b;
+	font-family: monospace;
+	font-size: smaller;
+
+	@include make-tag(meta, #3a3a4b);
+	@include make-tag(tech, darkolivegreen);
+	@include make-tag(rant, red, true);
+    }
+}

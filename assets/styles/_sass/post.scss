@@ -1,0 +1,58 @@
+@import "tag_list";
+
+.post {
+    &__metadata {
+	& {
+	    margin: 0 auto;
+	    border-bottom: 4px dotted darkolivegreen;
+	    padding-bottom: 1ch;
+	}
+
+        &__pubdate {
+        }
+
+        &__title {
+            color: darkolivegreen;
+        }
+    }
+
+    &__content {
+	& {
+	    line-height: 1.5;
+	}
+
+	code {
+	    font-size: smaller;
+	}
+
+        p {
+            text-align: justify;
+	    
+        }
+
+	blockquote {
+	    color: darkolivegreen;
+	    background-color: beige;
+
+	    border: 1px inset darken(beige, 25%);
+	    border-radius: 4px;
+	    padding: 1ch;
+
+	    // The <cite> tag itself has weird AND contradicting use-cases.
+	    // WHATWG says it must be the title of a work and NEVER the author.
+	    // W3C says it must be the title, the author, a URL, XOR a
+	    //   general reference to a work.
+	    .cite {
+		text-align: right;
+		&::before { content: "—"; }
+	    }
+	}
+
+	& > pre {
+	    line-height: 1.0;
+	    border: 1px ridge grey;
+	    border-radius: 4px;
+	    padding: 12px;
+	}
+    }
+}

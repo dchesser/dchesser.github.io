@@ -1,0 +1,27 @@
+---
+layout: "default"
+---
+
+<article class="post">
+  <div class="post__metadata">
+    <h1 class="post__metadata__title">{{ page.title }}</h1>
+    <time class="post__metadata__pubdate" datetime="{{ page.date | date: "%F" }}">
+      {{ page.date | date: "%B %d %Y" | downcase }}
+    </time>
+
+    {% if page.tags.size > 0 %}
+    <span class="tag-list">
+      (
+      {% for tag in page.tags %}
+      <span class="tag-list__tag tag--{{ tag }}">{{ tag }}</span>
+      {% unless forloop.last %}&middot;{% endunless %}
+      {% endfor %}
+      )
+    </span>
+    {% endif %}
+  </div>
+
+  <div class="post__content">
+    {{ content }}
+  </div>
+</article>

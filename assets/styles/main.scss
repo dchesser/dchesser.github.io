@@ -2,6 +2,7 @@
 ---
 
 @import "typefaces";
+@import "post";
 
 body {
     background-color: white;
@@ -10,10 +11,5 @@ body {
     font-variant-numeric: slashed-zero tabular-nums ordinal;
     font-size: 12pt;
     margin: auto;
-    width: 50ch;
-    text-align: center;
-}
-
-h1 {
-    border-bottom: 2pt solid #3a3a4b;
+    width: 80ch;
 }

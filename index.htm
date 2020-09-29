@@ -34,3 +34,11 @@ layout: "default"
   There will be plenty of time to unpack the gratuitous palm trees
   and pastel neon lamps once this home is rendered.
 </p>
+
+{% if site.posts %}
+<ul>
+  {% for post in site.posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%F"}})</li>
+  {% endfor %}
+</ul>
+{% endif %}
