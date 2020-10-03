@@ -38,11 +38,7 @@
 	    border-radius: 4px;
 	    padding: 1ch;
 
-	    // The <cite> tag itself has weird AND contradicting use-cases.
-	    // WHATWG says it must be the title of a work and NEVER the author.
-	    // W3C says it must be the title, the author, a URL, XOR a
-	    //   general reference to a work.
-	    .cite {
+	    .h-cite {
 		text-align: right;
 		&::before { content: "—"; }
 	    }
