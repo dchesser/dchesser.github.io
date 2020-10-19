@@ -13,3 +13,25 @@ body {
     margin: auto;
     width: 80ch;
 }
+
+// Based on https://tess.oconnor.cx/2007/08/tex-poshlet.
+.latex {
+    font-family: "Latin Modern", "Computer Modern", serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    line-height: 1;
+
+    sup {
+	font-size: 0.85em;
+	vertical-align: 0.15em;
+	margin-left: -0.36em;
+	margin-right: -0.15em;
+    }
+
+    sub {
+	font-size: 1em;
+	vertical-align: -0.25ex;
+	margin-left: -0.1667em;
+	margin-right: -0.125em;
+    }
+}
