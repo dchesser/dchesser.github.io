@@ -1,0 +1,31 @@
+$mood-size: 128px;
+
+@mixin add-mood($mood) {
+    .tangent.mood.mood--#{$mood} {
+	background-image: url("/assets/pictures/moods/#{$mood}.png");
+    }
+}
+
+.tangent {
+    background-color: lighten(salmon, 25%);
+    border: 1px inset indianred;
+    border-radius: 4px;
+    padding: 0 2ch;
+    margin: 1ch;
+
+    &.mood {
+	min-height: calc(#{$mood-size} + 3ch);
+	background-size: 128px;
+	background-position: 0 2ch;
+	background-repeat: no-repeat;
+	padding-left: calc(#{$mood-size} + 2ch);
+    }
+
+    &__header {
+	color: indianred;
+	font-weight: bold;
+	text-decoration: underline;
+    }
+}
+
+@include add-mood("thinking");

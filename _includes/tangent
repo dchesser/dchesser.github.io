@@ -1,0 +1,19 @@
+{% if include.mood %}
+<aside class="tangent mood mood--{{ include.mood }}">
+{% else %}
+<aside class="tangent">
+{% endif %}
+  <span class="tangent__header">
+    {%- if include.header -%}
+    {{ include.header }}
+    {%- else -%}
+    Tangent:
+    {%- endif -%}
+  </span>
+  {{ include.content | markdownify }}
+</aside>
+{% comment %}
+Local Variables:
+mode: mhtml
+End:
+{% endcomment %}
