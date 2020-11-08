@@ -1,14 +1,12 @@
 ---
 ---
 
-@import "typefaces";
 @import "post";
+@import "footer";
 
 body {
     background-color: white;
     color: #3a3a4b;
-    font-family: "FiraGO", sans-serif;
-    font-variant-numeric: slashed-zero tabular-nums ordinal;
     font-size: 12pt;
     margin: auto;
     width: 80ch;
