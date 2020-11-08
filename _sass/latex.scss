@@ -1,0 +1,25 @@
+// Based on https://tess.oconnor.cx/2007/08/tex-poshlet.
+.latex {
+    // Prefer Latin Modern or Computer Modern, but do not enforce them via web-fonts.
+    // That was recently decided upon (see commit 0207c6d).
+    // It looks pretty good with whatever serif faces I throw at it.
+    // (Utopia and Source Serif Pro mostly.)
+    font-family: "Latin Modern", "Computer Modern", serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    line-height: 1;
+
+    sup {
+	font-size: 0.85em;
+	vertical-align: 0.15em;
+	margin-left: -0.36em;
+	margin-right: -0.15em;
+    }
+
+    sub {
+	font-size: 1em;
+	vertical-align: -0.25ex;
+	margin-left: -0.1667em;
+	margin-right: -0.125em;
+    }
+}
