@@ -23,7 +23,3 @@ defaults:
       type: "posts"
     values:
       layout: "default"
-
-# Styles
-sass:
-  sass_dir: "assets/styles/_sass"
