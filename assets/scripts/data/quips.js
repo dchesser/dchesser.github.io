@@ -40,6 +40,7 @@ const QUIPS = [
     "Toilet paper for the pandemic?  Wait 'til you try the three clamshells!",
     "Anything that you thought was so important didn't really matter after all.",
     "Looks like a scientific-enough paper.  Even has graphs and stuff!  Would it lie to us?",
+    "It's that time of month again!  That's right, it's GIZZARD TIME!",
     creeper,
     whatAWeek,
     platonicRelationship,       // A classic staple of soap operas and Japanese cartoons.
