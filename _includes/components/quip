@@ -1,0 +1,8 @@
+<span id="quip">
+  <noscript>This page is funnier with JavaScript enabled.  Honest.</noscript>
+</span>
+{%- comment -%}
+Local Variables:
+mode: mhtml
+End:
+{%- endcomment -%}

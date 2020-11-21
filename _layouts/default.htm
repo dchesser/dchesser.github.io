@@ -4,9 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/styles/main.css">
+    <script type="text/javascript" src="/assets/scripts/libdave.js"></script>
+    <script type="module">
+      import QUIPS from "/assets/scripts/data/quips.js";
+
+      window.addEventListener("DOMContentLoaded", (event) => {
+	  let quip = RNG.randomElement(QUIPS);
+	  var result = (quip instanceof Function) ? quip.call() : quip;
+
+	  document.getElementById("quip").textContent = result;
+      });
+    </script>
     <title>Dave's Place</title>
   </head>
   <body>
+    {% include components/quip %}
+
     {{ content }}
   </body>
 </html>
