@@ -1,0 +1,30 @@
+---
+layout: "default"
+---
+
+<h1>Jargon File</h1>
+<p style="color: red; font-size: smaller;">TODO: organize and style</p>
+
+<p>
+  Not to be confused with <a href="http://catb.org/jargon/"><i>The Jargon File</i></a>
+  of Internet lore.
+</p>
+
+{% for word in site.data.terminology %}
+<dl>
+  <dt id="{{ word.jargon.term | slugify }}">{{ word.jargon.term }}</dt>
+  <dd>
+    {{ word.jargon.definition | markdownify }}
+
+    {% if word.jargon.related %}
+    <h5>Related Terms</h5>
+    {% for related in word.jargon.related %}
+    <ul>
+      <li>
+	<a href="#{{ related.term | slugify }}">{{ related.term }}</a>
+      </li>
+    </ul>
+    {% endfor %}
+    {% endif %}
+  </dd>
+{% endfor %}
