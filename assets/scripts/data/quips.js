@@ -44,6 +44,7 @@ const QUIPS = [
     "Like the movie Hitch but with a treacherous vizir!",
     "It's not stealing if you're not dressed like the Hamburgler.",
     "At least you don't have to funcall and quote functions here!",
+    "Nothing but us metal plates and chicken bones on the road here!",
     creeper,
     whatAWeek,
     platonicRelationship,       // A classic staple of soap operas and Japanese cartoons.
