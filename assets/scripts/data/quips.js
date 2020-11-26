@@ -43,6 +43,7 @@ const QUIPS = [
     "It's that time of month again!  That's right, it's GIZZARD TIME!",
     "Like the movie Hitch but with a treacherous vizir!",
     "It's not stealing if you're not dressed like the Hamburgler.",
+    "At least you don't have to funcall and quote functions here!",
     creeper,
     whatAWeek,
     platonicRelationship,       // A classic staple of soap operas and Japanese cartoons.
