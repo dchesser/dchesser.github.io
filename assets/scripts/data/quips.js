@@ -42,6 +42,7 @@ const QUIPS = [
     "Looks like a scientific-enough paper.  Even has graphs and stuff!  Would it lie to us?",
     "It's that time of month again!  That's right, it's GIZZARD TIME!",
     "Like the movie Hitch but with a treacherous vizir!",
+    "It's not stealing if you're not dressed like the Hamburgler.",
     creeper,
     whatAWeek,
     platonicRelationship,       // A classic staple of soap operas and Japanese cartoons.
