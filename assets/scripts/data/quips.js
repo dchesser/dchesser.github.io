@@ -45,6 +45,7 @@ const QUIPS = [
     "It's not stealing if you're not dressed like the Hamburgler.",
     "At least you don't have to funcall and quote functions here!",
     "Nothing but us metal plates and chicken bones on the road here!",
+    "Ask your parents before going online (but don't tell them you're coming here).",
     creeper,
     whatAWeek,
     platonicRelationship,       // A classic staple of soap operas and Japanese cartoons.
