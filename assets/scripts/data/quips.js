@@ -58,6 +58,8 @@ const QUIPS = [
     "It's not a bug, mom!",
     "Denied by O5-█",
     "1v1 me, enderman only, no items, final destination", // Is Microsoft just trying to squeeze themselves into Smash Bros. now or what?
+    "It is now safe to turn off your computer.",
+    "It is not safe to turn off your computer.",
     "The exchange rate states a bird in the hand is actually worth 1.81 in the bush.",
     creeper,
     whatAWeek,
