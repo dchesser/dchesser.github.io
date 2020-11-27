@@ -1,0 +1,20 @@
+header.main-header {
+    background-color: lighten(olivedrab, 50%);
+    color: darkolivegreen;
+    border: 1px solid darkolivegreen;
+    border-radius: 4px;
+    box-shadow: 2px 2px darkolivegreen;
+    margin-top: 1em;
+    font-size: 18pt;
+
+    & .home-link {
+	color: darkolivegreen;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 4px;
+
+	&:hover {
+	    color: orangered;
+	}
+    }
+}

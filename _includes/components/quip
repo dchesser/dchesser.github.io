@@ -1,6 +1,4 @@
-<span id="quip">
-  <noscript>This page is funnier with JavaScript enabled.  Honest.</noscript>
-</span>
+<div id="quip"></div>
 {%- comment -%}
 Local Variables:
 mode: mhtml

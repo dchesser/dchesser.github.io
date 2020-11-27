@@ -1,0 +1,14 @@
+<header class="main-header">
+  <nav>
+    <a class="home-link" href="/">
+      {% unless page.url == "/" %}⌂{% endunless %}
+      Capital D
+    </a>
+  </nav>
+</header>
+{% include components/quip %}
+{% comment %}
+Local Variables:
+mode: mhtml
+End:
+{% endcomment %}
