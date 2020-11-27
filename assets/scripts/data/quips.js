@@ -49,6 +49,7 @@ const QUIPS = [
     "A game about running and escaping!", // That was "Run Escape" back in third grade.  Holy crap that was early 2001!
     "He's half-man and half-machine!",
     "He rides the metal monster breathing smoke and fire!",
+    "Jukebox Hero is a hard game.",
     creeper,
     whatAWeek,
     platonicRelationship,       // A classic staple of soap operas and Japanese cartoons.
