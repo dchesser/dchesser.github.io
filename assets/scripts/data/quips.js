@@ -53,6 +53,7 @@ const QUIPS = [
     "Man, clerics are just the worst.", // https://www.giantitp.com/comics/oots1215.html
     "It's a site!",
     "In the test chamberrrrrr.",
+    "What's this?  Your PEANUT BUTTER is evolving!", // Press B to stop it.
     "Barbara Manatee was the OG waifu!",
     "Zebuuuuuu!", // DAMMIT THIS IS STUCK IN MY HEAD AGAIN!
     "It's not a bug, mom!",
