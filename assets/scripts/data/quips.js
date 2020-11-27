@@ -51,6 +51,7 @@ const QUIPS = [
     "He rides the metal monster breathing smoke and fire!",
     "Jukebox Hero is a hard game.",
     "Man, clerics are just the worst.", // https://www.giantitp.com/comics/oots1215.html
+    "It's a site!",
     creeper,
     whatAWeek,
     platonicRelationship,       // A classic staple of soap operas and Japanese cartoons.
