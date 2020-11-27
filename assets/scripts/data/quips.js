@@ -55,6 +55,7 @@ const QUIPS = [
     "In the test chamberrrrrr.",
     "Barbara Manatee was the OG waifu!",
     "Zebuuuuuu!", // DAMMIT THIS IS STUCK IN MY HEAD AGAIN!
+    "Denied by O5-█",
     "The exchange rate states a bird in the hand is actually worth 1.81 in the bush.",
     creeper,
     whatAWeek,
