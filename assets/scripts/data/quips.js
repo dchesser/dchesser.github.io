@@ -52,6 +52,7 @@ const QUIPS = [
     "Jukebox Hero is a hard game.",
     "Man, clerics are just the worst.", // https://www.giantitp.com/comics/oots1215.html
     "It's a site!",
+    "The exchange rate states a bird in the hand is actually worth 1.81 in the bush.",
     creeper,
     whatAWeek,
     platonicRelationship,       // A classic staple of soap operas and Japanese cartoons.
