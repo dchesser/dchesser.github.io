@@ -52,6 +52,7 @@ const QUIPS = [
     "Jukebox Hero is a hard game.",
     "Man, clerics are just the worst.", // https://www.giantitp.com/comics/oots1215.html
     "It's a site!",
+    "In the test chamberrrrrr.",
     "Barbara Manatee was the OG waifu!",
     "Zebuuuuuu!", // DAMMIT THIS IS STUCK IN MY HEAD AGAIN!
     "The exchange rate states a bird in the hand is actually worth 1.81 in the bush.",
