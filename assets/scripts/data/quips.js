@@ -47,6 +47,8 @@ const QUIPS = [
     "Nothing but us metal plates and chicken bones on the road here!",
     "Ask your parents before going online (but don't tell them you're coming here).",
     "A game about running and escaping!", // That was "Run Escape" back in third grade.  Holy crap that was early 2001!
+    "He's half-man and half-machine!",
+    "He rides the metal monster breathing smoke and fire!",
     creeper,
     whatAWeek,
     platonicRelationship,       // A classic staple of soap operas and Japanese cartoons.
