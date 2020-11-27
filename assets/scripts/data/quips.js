@@ -41,7 +41,7 @@ const QUIPS = [
     "Anything that you thought was so important didn't really matter after all.",
     "Looks like a scientific-enough paper.  Even has graphs and stuff!  Would it lie to us?",
     "It's that time of month again!  That's right, it's GIZZARD TIME!",
-    "Like the movie Hitch but with a treacherous vizir!",
+    "Like the movie Hitch but without a treacherous vizir!",
     "It's not stealing if you're not dressed like the Hamburgler.",
     "At least you don't have to funcall and quote functions here!",
     "Nothing but us metal plates and chicken bones on the road here!",
