@@ -55,6 +55,7 @@ const QUIPS = [
     "In the test chamberrrrrr.",
     "Barbara Manatee was the OG waifu!",
     "Zebuuuuuu!", // DAMMIT THIS IS STUCK IN MY HEAD AGAIN!
+    "It's not a bug, mom!",
     "Denied by O5-█",
     "1v1 me, enderman only, no items, final destination", // Is Microsoft just trying to squeeze themselves into Smash Bros. now or what?
     "The exchange rate states a bird in the hand is actually worth 1.81 in the bush.",
