@@ -46,6 +46,7 @@ const QUIPS = [
     "At least you don't have to funcall and quote functions here!",
     "Nothing but us metal plates and chicken bones on the road here!",
     "Ask your parents before going online (but don't tell them you're coming here).",
+    "A game about running and escaping!", // That was "Run Escape" back in third grade.  Holy crap that was early 2001!
     creeper,
     whatAWeek,
     platonicRelationship,       // A classic staple of soap operas and Japanese cartoons.
