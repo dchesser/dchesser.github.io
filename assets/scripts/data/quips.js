@@ -26,7 +26,7 @@ const QUIPS = [
     "It was a pretty bad idea in foresight.",
     "It looked like a good idea at the time.",
     "Buckling spring action!",
-    "Aaah! It's a bear holding a shark!",
+    "Aaah! It's a bear holding a shark!", // http://www.hrwiki.org/wiki/Bear_holding_a_Shark
     "Yoink!", // https://practicalguidetoevil.wordpress.com/2017/09/13/chapter-31-high-noon/
     "Lies and violence!",
     "Squared Cool",             // 🆒
