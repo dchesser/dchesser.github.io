@@ -7,6 +7,7 @@ const QUIPS = [
     "Subbed and dubbed for all tastes as long as it's in English.",
     "Saïba Dave and the Tasty Riff Dinner",
     "Saïba Dave and the Vape Juice Chug",
+    "Saïba Dave and the Beige Module Cartridge",
     "And you will derive great pleasure from it.",
     "And all will be well.",
     "You have awakened the gazebo.  Roll for initiative.",
