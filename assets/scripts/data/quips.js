@@ -65,6 +65,7 @@ const QUIPS = [
     "It is now safe to turn off your computer.",
     "It is not safe to turn off your computer.",
     "The exchange rate states a bird in the hand is actually worth 1.81 in the bush.",
+    "As delightful as a game of Prussian roulette.", // (🗡) Okay who goes first?
     "Never actually saw a Seven-Eleven.", // Not really a thing down here.
     "The greatest thing since sliced bread.",
     "The greatest thing since canned bread.",
