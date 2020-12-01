@@ -101,6 +101,7 @@ function iKnowWhatThisSushiNeeds() {
         "more wasabi",          // Aldi never puts enough packets in their frozen box.
         "sort of existensial crisis",
         "more cowbell",         // This used to be a meme back when I was a kid.
+	"Chick-Fil-A sauce",    // Did you know you could just BUY that stuff at the store?
     ];
 
     return "I know what this sushi needs!  Some " + RNG.randomElement(SAUCES) + "!";
