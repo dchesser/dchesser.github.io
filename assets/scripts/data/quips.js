@@ -65,6 +65,7 @@ const QUIPS = [
     "It is now safe to turn off your computer.",
     "It is not safe to turn off your computer.",
     "The exchange rate states a bird in the hand is actually worth 1.81 in the bush.",
+    "Never actually saw a Seven-Eleven.", // Not really a thing down here.
     creeper,
     whatAWeek,
     platonicRelationship,       // A classic staple of soap operas and Japanese cartoons.
