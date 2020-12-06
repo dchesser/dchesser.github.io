@@ -57,6 +57,7 @@ const QUIPS = [
     "The greatest thing since sliced bread.",
     "The greatest thing since canned bread.",
     "The greatest thing since sliced bread was legalized again in 1947.",
+    "I OBLITERATED this packet of turkey slices from the deli with FACTS and LOGIC!", // They always tear around the resealable zipper. I've Shapiro'd this dead bird. ;_;
     creeper,
     platonicRelationship,       // A classic staple of soap operas and Japanese cartoons.
     excuseMePrincess,           // I once saw a frequency chart of how many 'U's there would be.
