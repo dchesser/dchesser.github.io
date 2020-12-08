@@ -59,6 +59,7 @@ const QUIPS = [
     "The greatest thing since sliced bread was legalized again in 1947.",
     "I OBLITERATED this packet of turkey slices from the deli with FACTS and LOGIC!", // They always tear around the resealable zipper. I've Shapiro'd this dead bird. ;_;
     "Somebody get this freaking duck away from me!",
+    "BUT, VERILY, IT BE THE NATURE OF DREAMS TO END.", // Koholint from LoZ: Link's Awakening being in the same universe as my Animal Crossing: New Horizons island is now confirmed.  Marin wanted to be a seagull and sing for people.  Gulliver is a seagull and "he" keeps washing up on my beach and gripes about how his smartphone is busted.  Coïncidence?  I THINK NOT!  Gulliver _also_ says he "heard a fish say that".  THE WIND FISH IN NAME ONLY FOR IT IS NEITHER.
     creeper,
     platonicRelationship,       // A classic staple of soap operas and Japanese cartoons.
     excuseMePrincess,           // I once saw a frequency chart of how many 'U's there would be.
