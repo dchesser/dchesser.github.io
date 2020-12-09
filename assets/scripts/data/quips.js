@@ -52,7 +52,6 @@ const QUIPS = [
     "Denied by O5-█",
     "It is now safe to turn off your computer.",
     "It is not safe to turn off your computer.",
-    "The exchange rate states a bird in the hand is actually worth 1.81 in the bush.",
     "As delightful as a game of Prussian roulette.", // (🗡) Okay who goes first?
     "The greatest thing since sliced bread.",
     "The greatest thing since canned bread.",
@@ -64,6 +63,7 @@ const QUIPS = [
     platonicRelationship,       // A classic staple of soap operas and Japanese cartoons.
     excuseMePrincess,           // I once saw a frequency chart of how many 'U's there would be.
     iKnowWhatThisSushiNeeds,    // Inspired by a box of frozen sushi thawed from a microwave oven.
+    handBushExchangeRate,
 ];
 
 function creeper() {
@@ -108,6 +108,11 @@ function iKnowWhatThisSushiNeeds() {
     ];
 
     return "I know what this sushi needs!  Some " + RNG.randomElement(SAUCES) + "!";
+}
+
+function handBushExchangeRate() {
+    const RATE = (Math.random() + 1).toFixed(2);
+    return `The bird in the hand is now worth ${RATE} in the bush.`;
 }
 
 export default QUIPS;
