@@ -75,7 +75,7 @@ function platonicRelationship() {
         "isocahedron",
     ];
 
-    return "A bizarre love " + RNG.randomElement(SHAPES) + "!";
+    return `A bizarre love ${RNG.randomElement(SHAPES)}!`;
 }
 
 function excuseMePrincess() {
@@ -96,7 +96,7 @@ function iKnowWhatThisSushiNeeds() {
         "Chick-Fil-A sauce",
     ];
 
-    return "I know what this sushi needs!  Some " + RNG.randomElement(SAUCES) + "!";
+    return `I know what this sushi needs!  Some ${RNG.randomElement(SAUCES)}!`;
 }
 
 function handBushExchangeRate() {
