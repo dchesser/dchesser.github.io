@@ -61,21 +61,12 @@ let quips = [
     "BUT, VERILY, IT BE THE NATURE OF DREAMS TO END.", // Koholint from LoZ: Link's Awakening being in the same universe as my Animal Crossing: New Horizons island is now confirmed.  Marin wanted to be a seagull and sing for people.  Gulliver is a seagull and "he" keeps washing up on my beach and gripes about how his smartphone is busted.  Coïncidence?  I THINK NOT!  Gulliver _also_ says he "heard a fish say that".  THE WIND FISH IN NAME ONLY FOR IT IS NEITHER.
     "You'll understand it when you're older.",
     "You'll understand it when you're younger.",
-    creeper,
+    "Creeper? Aw y-💥",
     platonicRelationship,       // A classic staple of soap operas and Japanese cartoons.
     excuseMePrincess,           // I once saw a frequency chart of how many 'U's there would be.
     iKnowWhatThisSushiNeeds,    // Inspired by a box of frozen sushi thawed from a microwave oven.
     handBushExchangeRate,
 ];
-
-function creeper() {
-    const INTERJECTIONS = [
-        "Aw yeah.",
-        "Aw y-💥",              // This is why you look both ways before placing torches.
-    ];
-
-    return "Creeper?  " + RNG.randomElement(INTERJECTIONS);
-}
 
 function platonicRelationship() {
     const SHAPES = [
