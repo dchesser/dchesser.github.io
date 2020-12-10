@@ -22,10 +22,9 @@ let quips = [
     "It was a pretty bad idea in hindsight.",
     "It was a pretty bad idea in foresight.",
     "Buckling spring action!",
-    "Aaah! It's a bear holding a shark!", // http://www.hrwiki.org/wiki/Bear_holding_a_Shark
-    "Yoink!", // https://practicalguidetoevil.wordpress.com/2017/09/13/chapter-31-high-noon/
+    "Aaah! It's a bear holding a shark!",
     "Lies and violence!",
-    "Squared Cool",             // 🆒
+    "Squared Cool",
     "#Dave4Prez2024",
     "Incurring additional fees for not rewinding the tape when returning it since 199X!",
     "Incurring additional fees for not rewinding the DVD when returning it since 200X!",
@@ -37,46 +36,43 @@ let quips = [
     "At least you don't have to funcall and quote functions here!",
     "Nothing but us metal plates and chicken bones on the road here!",
     "Ask your parents before going online (but don't tell them you're coming here).",
-    "A game about running and escaping!", // That was "Run Escape" back in third grade.  Holy crap that was early 2001!
+    "A game about running and escaping!",
     "He's half-man and half-machine!",
     "He rides the metal monster breathing smoke and fire!",
     "Jukebox Hero is a hard game.",
-    "Man, clerics are just the worst.", // https://www.giantitp.com/comics/oots1215.html
+    "Man, clerics are just the worst.",
     "It's a site!",
-    "Shooping whoops since 2000!", // Us late millenials are weird, m'kay?
+    "Shooping whoops since 2000!",
     "Beware!  I live!",
-    "What's this?  Your PEANUT BUTTER is evolving!", // Press B to stop it.
+    "What's this?  Your PEANUT BUTTER is evolving!",
     "Barbara Manatee was the OG waifu!",
-    "Zebuuuuuu!", // DAMMIT THIS IS STUCK IN MY HEAD AGAIN!
     "It's not a bug, mom!",
     "Denied by O5-█",
     "It is now safe to turn off your computer.",
     "It is not safe to turn off your computer.",
-    "As delightful as a game of Prussian roulette.", // (🗡) Okay who goes first?
+    "As delightful as a game of Prussian roulette.",
     "The greatest thing since sliced bread.",
     "The greatest thing since canned bread.",
     "The greatest thing since sliced bread was legalized again in 1947.",
-    "I OBLITERATED this packet of turkey slices from the deli with FACTS and LOGIC!", // They always tear around the resealable zipper. I've Shapiro'd this dead bird. ;_;
+    "I OBLITERATED this packet of turkey slices from the deli with FACTS and LOGIC!",
     "Somebody get this freaking duck away from me!",
-    "BUT, VERILY, IT BE THE NATURE OF DREAMS TO END.", // Koholint from LoZ: Link's Awakening being in the same universe as my Animal Crossing: New Horizons island is now confirmed.  Marin wanted to be a seagull and sing for people.  Gulliver is a seagull and "he" keeps washing up on my beach and gripes about how his smartphone is busted.  Coïncidence?  I THINK NOT!  Gulliver _also_ says he "heard a fish say that".  THE WIND FISH IN NAME ONLY FOR IT IS NEITHER.
+    "BUT, VERILY, IT BE THE NATURE OF DREAMS TO END.",
     "You'll understand it when you're older.",
     "You'll understand it when you're younger.",
     "Creeper? Aw y-💥",
-    platonicRelationship,       // A classic staple of soap operas and Japanese cartoons.
-    excuseMePrincess,           // I once saw a frequency chart of how many 'U's there would be.
-    iKnowWhatThisSushiNeeds,    // Inspired by a box of frozen sushi thawed from a microwave oven.
+    platonicRelationship,
+    excuseMePrincess,
+    iKnowWhatThisSushiNeeds,
     handBushExchangeRate,
 ];
 
 function platonicRelationship() {
     const SHAPES = [
-        // "triangle", // Meh, the cool kids smoke THREE dimensions a day behind the dumpster after school.
         "tetrahedron",
         "cube",
         "octahedron",
-        "dodecahedron",         // Any more than this and it becomes a Roman orgy.
-        "isocahedron",          // And NOW it's a Roman orgy.  That's anything BUT Platonic!
-        // Platonic solids.  That's the joke.  Now it's ruined, source code reader.  Go home.
+        "dodecahedron",
+        "isocahedron",
     ];
 
     return "A bizarre love " + RNG.randomElement(SHAPES) + "!";
@@ -88,16 +84,16 @@ function excuseMePrincess() {
 
 function iKnowWhatThisSushiNeeds() {
     const SAUCES = [
-        "sriracha",             // Nah.  Too smokey.
+        "sriracha",
         "ketchup",
-        "catsup",               // Just to piss off the ketch-cats debate.
-        "mayonnaise",           // Just to piss off anyone who still has taste buds.
-        "spray butter",         // Just to piss off anyone who has self-worth.
+        "catsup",
+        "mayonnaise",
+        "spray butter",
         "wasabi",
-        "more wasabi",          // Aldi never puts enough packets in their frozen box.
+        "more wasabi",
         "sort of existensial crisis",
-        "more cowbell",         // This used to be a meme back when I was a kid.
-        "Chick-Fil-A sauce",    // Did you know you could just BUY that stuff at the store?
+        "more cowbell",
+        "Chick-Fil-A sauce",
     ];
 
     return "I know what this sushi needs!  Some " + RNG.randomElement(SAUCES) + "!";
