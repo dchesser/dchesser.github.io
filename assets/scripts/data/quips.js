@@ -1,4 +1,4 @@
-const QUIPS = [
+let quips = [
     "↑↑↓↓←→←→ⒷⒶ",
     "Bring me the Imperial Swear Jar!",
     "Insert quarter...",
@@ -59,6 +59,8 @@ const QUIPS = [
     "I OBLITERATED this packet of turkey slices from the deli with FACTS and LOGIC!", // They always tear around the resealable zipper. I've Shapiro'd this dead bird. ;_;
     "Somebody get this freaking duck away from me!",
     "BUT, VERILY, IT BE THE NATURE OF DREAMS TO END.", // Koholint from LoZ: Link's Awakening being in the same universe as my Animal Crossing: New Horizons island is now confirmed.  Marin wanted to be a seagull and sing for people.  Gulliver is a seagull and "he" keeps washing up on my beach and gripes about how his smartphone is busted.  Coïncidence?  I THINK NOT!  Gulliver _also_ says he "heard a fish say that".  THE WIND FISH IN NAME ONLY FOR IT IS NEITHER.
+    "You'll understand it when you're older.",
+    "You'll understand it when you're younger.",
     creeper,
     platonicRelationship,       // A classic staple of soap operas and Japanese cartoons.
     excuseMePrincess,           // I once saw a frequency chart of how many 'U's there would be.
@@ -115,4 +117,29 @@ function handBushExchangeRate() {
     return `The bird in the hand is now worth ${RATE} in the bush.`;
 }
 
-export default QUIPS;
+const TODAY = new Date();
+
+// Christmas and other Decembery quips
+
+if (TODAY.getMonth() === 11) {
+    if (TODAY.getDay() === 25) {
+        quips = RNG.randomElement(["merr", "hap", "yay it"]) +
+	    RNG.randomElement(["crimbus", "festvus", "holldæy", "holliliday", "crispmas", "crithmuth"]);
+    } else {
+        function nthDayOfChristmas() {
+            const DAY = RNG.randomElement(["third", "fifth", "seventh", "ninth", "eleventh"]);
+            return `On the ${DAY} day of Christmas my true love said to me, \"I want a divorce\".`;
+        }
+
+        quips.push(
+            "Bah, humbug.",
+            "With bunnies running for their lives, I wish this one was super-sized.",
+            "A Festivus for the rest of us!",
+            "Aloha shirts?  At the White Elephant?  It's more likely than you think.",
+	    "📎💬 Looks like you're writing a last-minute Christmas card.  Would you like any help?",
+            nthDayOfChristmas,
+        );
+    }
+}
+
+export default quips;

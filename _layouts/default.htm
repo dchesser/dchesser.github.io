@@ -6,10 +6,10 @@
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/styles/main.css">
     <script type="text/javascript" src="/assets/scripts/libdave.js"></script>
     <script type="module">
-      import QUIPS from "/assets/scripts/data/quips.js";
+      import quips from "/assets/scripts/data/quips.js";
 
       window.addEventListener("DOMContentLoaded", (event) => {
-	  let quip = RNG.randomElement(QUIPS);
+	  let quip = RNG.randomElement(quips);
 	  var result = (quip instanceof Function) ? quip.call() : quip;
 
 	  document.getElementById("quip").textContent = result;
