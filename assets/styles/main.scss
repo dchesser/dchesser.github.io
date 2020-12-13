@@ -3,9 +3,13 @@
 
 $text-color: #3a3a4b;
 
+// Structure
 @import "header";
-@import "quip";
+@import "footer";
 @import "post";
+
+// Components
+@import "components/quip";
 
 // Tidbits and one-offs
 @import "latex";

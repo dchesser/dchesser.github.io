@@ -1,0 +1,8 @@
+<footer class="main-footer">
+  {% include components/quip %}
+</footer>
+{% comment %}
+Local Variables:
+mode: mhtml
+End:
+{% endcomment %}

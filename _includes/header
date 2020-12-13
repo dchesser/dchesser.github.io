@@ -6,7 +6,6 @@
     </a>
   </nav>
 </header>
-{% include components/quip %}
 {% comment %}
 Local Variables:
 mode: mhtml
