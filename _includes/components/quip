@@ -1,4 +1,8 @@
-<div id="quip"></div>
+<div id="quip">
+  <p>
+    <noscript>&quot;That's the way we did it and we <em>liked</em> it.&quot;</noscript>
+  </p>
+</div>
 {%- comment -%}
 Local Variables:
 mode: mhtml

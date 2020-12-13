@@ -1,4 +1,6 @@
 footer.main-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
     border-top: thin inset olivedrab;
-    display: flex;
 }

@@ -12,7 +12,7 @@
 	  let quip = RNG.randomElement(quips);
 	  var result = (quip instanceof Function) ? quip.call() : quip;
 
-	  document.getElementById("quip").textContent = result;
+	  document.getElementById("quip").textContent = `"${result}"`;
       });
     </script>
     <title>Dave's Place</title>
