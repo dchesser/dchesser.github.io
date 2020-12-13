@@ -1,4 +1,5 @@
 _site/
+_drafts/
 vendor/
 .sass-cache/
 .jekyll-cache/
