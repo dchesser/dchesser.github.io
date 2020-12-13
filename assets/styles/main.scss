@@ -1,6 +1,8 @@
 ---
 ---
 
+$text-color: #3a3a4b;
+
 @import "header";
 @import "quip";
 @import "post";
@@ -10,7 +12,7 @@
 
 body {
     background-color: white;
-    color: #3a3a4b;
+    color: $text-color;
     font-size: 12pt;
     margin: auto;
     width: 80ch;
