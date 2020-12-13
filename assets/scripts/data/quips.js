@@ -52,6 +52,7 @@ let quips = [
     "But verily it be the nature of dreams to end.",
     "You'll understand it when you're older.",
     "Creeper? Aw y-💥",
+    "Also try Factorio!",
     platonicRelationship,
     excuseMePrincess,
     iKnowWhatThisSushiNeeds,
