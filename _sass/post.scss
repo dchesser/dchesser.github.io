@@ -35,8 +35,10 @@
 	    color: darkolivegreen;
 	    background-color: beige;
 
-	    border: 1px inset darken(beige, 25%);
+	    border: thin outset olivedrab;
+	    border-left-width: thick;
 	    border-radius: 4px;
+
 	    padding: 1ch;
 
 	    .h-cite {
