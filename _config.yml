@@ -13,8 +13,13 @@ gist:
 show_drafts: true
 markdown: "GFM"
 
+## Serving
+
 # Easier to spam the save command then meta-tab-F5 over to the browser.
 livereload: true
+
+# Serve to the local network so I can test on mobile easily.
+host: "0.0.0.0"
 
 # Post defaults
 defaults:
