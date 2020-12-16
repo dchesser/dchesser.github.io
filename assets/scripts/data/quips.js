@@ -53,6 +53,7 @@ let quips = [
     "You'll understand it when you're older.",
     "Creeper? Aw y-💥",
     "Also try Factorio!",
+    "I don't know what this is but it certainly isn't kimchi.",
     platonicRelationship,
     excuseMePrincess,
     iKnowWhatThisSushiNeeds,
