@@ -1,9 +1,12 @@
 <header class="main-header">
-  <nav>
-    <a class="home-link" href="/">
-      {% unless page.url == "/" %}⌂{% endunless %}
-      Capital D
-    </a>
+  <a class="home-link" href="/">
+    {% unless page.url == "/" %}⌂{% endunless %}
+    Capital D
+  </a>
+
+  <nav class="site-nav">
+    <a href="/" class="nav-link{% if page.url == '/' %} here{% endif %}">
+      Home</a>
   </nav>
 </header>
 {% comment %}

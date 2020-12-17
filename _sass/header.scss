@@ -3,11 +3,25 @@ header.main-header {
 
     font-size: $font-size;
 
-    & .home-link {
+    .home-link {
 	padding: 4px;
 
 	text-decoration: none;
 	font-weight: bold;
 
+    }
+
+    .site-nav {
+	float: right;
+	text-decoration: none;
+
+	.nav-link {
+	    padding: 0 1ch;
+	    &:last-of-type { padding-right: 0; }
+
+	    &:link, &:visited {
+		text-decoration: underline;
+	    }
+	}
     }
 }
