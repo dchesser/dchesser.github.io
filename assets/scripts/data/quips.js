@@ -54,6 +54,7 @@ let quips = [
     "Creeper? Aw y-💥",
     "Also try Factorio!",
     "I don't know what this is but it certainly isn't kimchi.",
+    "Is not Jack Black.  Stop asking.",
     platonicRelationship,
     excuseMePrincess,
     iKnowWhatThisSushiNeeds,
