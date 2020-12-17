@@ -1,5 +1,21 @@
 <footer class="main-footer">
-  {% include components/quip %}
+  <div id="quip">
+    <p>
+      <noscript>&quot;That's the way we did it and we <em>liked</em> it.&quot;</noscript>
+    </p>
+  </div>
+
+  <div id="also-on">
+    <h1>See also:</h1>
+    <ul>
+      <li>
+	<a href="https://github.com/dchesser/dchesser.github.io/discussions">Discussions</a>
+      </li>
+      <li class="contact github">
+	<a href="https://github.com/dchesser">GitHub</a>
+      </li>
+    </ul>
+  </div>
 </footer>
 {% comment %}
 Local Variables:
