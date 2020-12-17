@@ -5,17 +5,16 @@
     </p>
   </div>
 
-  <div id="also-on">
+  <ul id="also-on">
     <h1>See also:</h1>
-    <ul>
-      <li>
-	<a href="https://github.com/dchesser/dchesser.github.io/discussions">Discussions</a>
-      </li>
-      <li class="contact github">
-	<a href="https://github.com/dchesser">GitHub</a>
-      </li>
-    </ul>
-  </div>
+    <li>
+      <a href="https://github.com/dchesser/dchesser.github.io/discussions">Discussions</a>
+    </li>
+    ·
+    <li class="contact github">
+      <a href="https://github.com/dchesser">GitHub</a>
+    </li>
+  </ul>
 </footer>
 {% comment %}
 Local Variables:
