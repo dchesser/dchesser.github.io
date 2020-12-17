@@ -3,4 +3,9 @@ footer.main-footer {
     grid-template-columns: repeat(3, 1fr);
 
     border-top: thin inset olivedrab;
+    #quip {
+	color: grey;
+	font-style: italic;
+	font-size: smaller;
+    }
 }
