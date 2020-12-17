@@ -1,18 +1,13 @@
 header.main-header {
     margin-top: 1em;
 
-    color: darkolivegreen;
-    font-size: 18pt;
+    font-size: $font-size;
 
     & .home-link {
 	padding: 4px;
 
-	color: darkolivegreen;
 	text-decoration: none;
 	font-weight: bold;
 
-	&:hover {
-	    color: orangered;
-	}
     }
 }

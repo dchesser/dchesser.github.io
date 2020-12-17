@@ -5,7 +5,7 @@
     &__metadata {
 	& {
 	    margin: 0 auto;
-	    border-bottom: 4px dotted darkolivegreen;
+	    border-bottom: thin dotted $faded-color;
 	    padding-bottom: 1ch;
 	}
 
@@ -13,7 +13,11 @@
         }
 
         &__title {
-            color: darkolivegreen;
+            color: $accent1-color;
+	    font-size: 24pt;
+	    font-weight: 300;
+	    font-style: oblique;
+	    margin: 0;
         }
     }
 
@@ -32,14 +36,12 @@
         }
 
 	blockquote {
-	    color: darkolivegreen;
-	    background-color: beige;
-
-	    border: thin outset olivedrab;
+	    padding: 1ch;
+	    border: thin outset $accent1-color;
 	    border-left-width: thick;
 	    border-radius: 4px;
-
-	    padding: 1ch;
+	    color: $accent1-color;
+	    background-color: beige;
 
 	    .h-cite {
 		text-align: right;
@@ -48,10 +50,10 @@
 	}
 
 	& > pre {
-	    line-height: 1.0;
-	    border: 1px ridge grey;
-	    border-radius: 4px;
 	    padding: 12px;
+	    border: 1px ridge $faded-color;
+	    border-radius: 4px;
+	    line-height: 1.0;
 	}
     }
 
@@ -68,14 +70,14 @@
     }
 
     table {
-	border: thin solid olivedrab;
+	border: thin solid $accent1-color;
 	border-collapse: collapse;
 	border-spacing: 2px;
 	padding: 0;
 	margin: 1ch auto;
 
 	thead {
-	    background-color: olivedrab;
+	    background-color: $accent1-color;
 	    color: white;
 	    margin: 0;
 	    padding: 0;
@@ -83,7 +85,7 @@
 
 	tr {
 	    &:nth-child(even) {
-		background-color: rgba(olivedrab, 35%);
+		background-color: rgba($accent1-color, 35%);
 	    }
 	}
     }
