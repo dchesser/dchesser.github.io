@@ -1,21 +1,60 @@
 ---
 ---
 
-$text-color: #3a3a4b;
+// Palette
+
+$text-color:    black;
+$bg-color:      white;
+$accent1-color: darkolivegreen;
+$accent2-color: orangered;
+$faded-color:   grey;
+
+$link-color: $accent1-color;
+$link-hover-color: $accent2-color;
+
+$h1-color: $accent1-color;
+$h2-color: $accent1-color;
+$h3-color: $accent1-color;
+$h4-color: $accent1-color;
+$h5-color: $accent1-color;
+$h6-color: $accent1-color;
+
+$font-size: 12pt;
 
 // Structure
+
 @import "header";
 @import "footer";
 @import "post";
 
+// Substructures (eg. nonreusable portions of structures)
+
+@import "contacts_list";
 
 // Tidbits and one-offs
+
 @import "latex";
 
+// Defaults
+
 body {
-    background-color: white;
+    background-color: $bg-color;
     color: $text-color;
-    font-size: 12pt;
+    font-size: $font-size;
     margin: auto;
     width: 80ch;
+}
+
+a {
+    &:link {
+	color: $link-color;
+    }
+
+    &:visited {
+	color: $link-color;
+    }
+
+    &:hover {
+	color: $link-hover-color;
+    }
 }
