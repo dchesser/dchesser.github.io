@@ -8,6 +8,10 @@
   <ul id="also-on">
     <h1>See also:</h1>
     <li>
+      <a href="/feed.atom.xml">Atom feed</a>
+    </li>
+    ·
+    <li>
       <a href="https://github.com/dchesser/dchesser.github.io/discussions">Discussions</a>
     </li>
     ·
