@@ -56,6 +56,7 @@ let quips = [
     "I don't know what this is but it certainly isn't kimchi.",
     "Is not Jack Black.  Stop asking.",
     "Oh no!  That owl's getting too buff!",
+    "What a horrible night to be literate.",
     platonicRelationship,
     excuseMePrincess,
     iKnowWhatThisSushiNeeds,
