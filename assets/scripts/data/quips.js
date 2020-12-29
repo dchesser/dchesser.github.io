@@ -57,6 +57,7 @@ let quips = [
     "Is not Jack Black.  Stop asking.",
     "Oh no!  That owl's getting too buff!",
     "What a horrible night to be literate.",
+    "The embodiment of evil shenanigans",
     platonicRelationship,
     excuseMePrincess,
     iKnowWhatThisSushiNeeds,
