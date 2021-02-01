@@ -80,12 +80,20 @@ implements" a bit ago to tinker with.
 Snagged a small pack of [Tombow Fudenosuke][Fudenosuke] brush pens
 where one of them is "firm"
 (<ruby>しっかり<rp>(</rp><rt>Shikkari</rt><rp>)</rp></ruby>)
-and two are soft or "quick?"
-(<ruby>はやか<rp>(</rp><rt>Hayaka</rt><rp>)</rp></ruby>)
-and one of those "quick" brushes has an end with grey ink.
+and two are flexible
+(<ruby>しなやか<rp>(</rp><rt>Shinayaka</rt><rp>)</rp></ruby>),
+one of which has an end with grey ink.
 I neither understand a lick of Japanese nor enjoy its media like a lot
 of other nerds do so I'm not even sure if those are accurate translations.
 Maybe I should add this language to my repertoire... 🤔
+
+{% include tangent mood="thinking" header="I Stand Corrected"
+content="Curse my late-millenial heritage for being bamboozled by cursive once again!
+Cursive Japanese is a completely different beast that I read absolutely wrong.
+It's not <ruby>はやか<rp>(</rp><rt>hayaka</rt><rp>)</rp></ruby>.
+It's [<ruby>しなやか<rp>(</rp><rt>shinayaka</rt><rp>)</rp></ruby>](https://en.wiktionary.org/wiki/%E3%81%97%E3%81%AA%E3%82%84%E3%81%8B).
+The above paragraph has been relieved of this transgression.
+"%}
 
 [Fudenosuke]: https://www.tombowusa.com/markers/fudenosuke/fudenosuke-brush-pen-3-pack.html
 
