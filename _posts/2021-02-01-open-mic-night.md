@@ -5,7 +5,7 @@ date: "2021-02-01 12:00:00 -0400"
 tags: ["omn"]
 ---
 
-The Future™ is Now.Ⓡ
+The Future™ is Now.®
 Like what many other folks do, this is a good time to reflect on what
 you want to accomplish by being reminded of the fleeting
 one-second-per-second speed of time.
