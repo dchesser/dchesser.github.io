@@ -107,8 +107,8 @@ const TODAY = new Date();
 // Christmas and other Decembery quips
 
 if (TODAY.getMonth() === 11) {
-    if (TODAY.getDay() === 25) {
-        quips = RNG.randomElement(["merr", "hap", "yay it"]) +
+    if (TODAY.getDate() === 25) { // Months start at 0, but dates start at 1?  What?
+        quips = RNG.randomElement(["merr", "hap", "yay it"]) + " " +
 	    RNG.randomElement(["crimbus", "festvus", "holldæy", "holliliday", "crispmas", "crithmuth"]);
     } else {
         function nthDayOfChristmas() {
