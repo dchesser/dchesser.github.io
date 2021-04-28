@@ -32,7 +32,13 @@
 
         p {
             text-align: justify;
-	    
+
+	    &:target {
+		background-color: rgba(goldenrod, 0.2);
+		border: 1px solid goldenrod;
+		border-radius: 1em;
+		padding: 1ch;
+	    }
         }
 
 	blockquote {
