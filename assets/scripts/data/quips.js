@@ -46,6 +46,7 @@ let quips = [
     "Oh no!  That owl's getting too buff!",
     "What a horrible night to be literate.",
     "The embodiment of evil shenanigans",
+    "Always imitated; never duplicated... Thank goodness.",
     platonicRelationship,
     excuseMePrincess,
     iKnowWhatThisSushiNeeds,
